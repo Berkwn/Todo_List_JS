@@ -1,0 +1,67 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-container{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-div{
+
+  width: 30%;
+  height: 100vh;
+  background-color: bisque;
+}
+
+.input{
+    color: white;
+    margin-top: 10px;
+    border: none;
+    width: 80%;
+    background-color: rgb(216, 216, 240);
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+
+.deletebutton{
+
+    height: 30px;
+    width: 40px;
+    background-color: rgb(197, 18, 18);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.editbutton{
+
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.darkmode{
+
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+body{
+
+    background: -webkit-linear-gradient(125deg,red,purple);
+
+    height: 100vh;
+}
